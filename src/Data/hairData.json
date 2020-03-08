@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Hair Cuts",
+    "type": [
+      { "name": "Women's", "price": 35 },
+      { "name": "Men's", "price": 25 },
+      { "name": "Children's", "price": 20 }
+    ]
+  },
+  {
+    "title": "Hair Coloring",
+    "type": [
+      { "name": "Root Touch-Up", "price": 65 },
+      { "name": "All-Over Color", "price": 75 },
+      { "name": "Partial Weave (One Color)", "price": 75 },
+      { "name": "Full Weave(One Color)", "price": 95 },
+      { "name": "Roots & Partial Weave", "price": 120 },
+      { "name": "Roots & Full Weave", "price": 125 },
+      { "name": "Each Additional Color", "price": 10 }
+    ]
+  },
+  {
+    "title": "Hair Extensions",
+    "type": [
+      { "name": "Consultation", "price": "Free" },
+      { "name": "Hair Extensions", "price": "75/hr" },
+      { "name": "Single Hair Extension", "price": "$15/strand" },
+      { "name": "Partial Weave (One Color)", "price": 75 }
+    ]
+  },
+  {
+    "title": "Hair Coloring",
+    "type": [
+      { "name": "Root Touch-Up", "price": 65 },
+      { "name": "All-Over Color", "price": 75 },
+      { "name": "Partial Weave (One Color)", "price": 75 }
+    ]
+  },
+  {
+    "title": "Hair Coloring",
+    "type": [
+      { "name": "Root Touch-Up", "price": 65 },
+      { "name": "All-Over Color", "price": 75 },
+      { "name": "Partial Weave (One Color)", "price": 75 }
+    ]
+  },
+  {
+    "title": "Hair Coloring",
+    "type": [
+      { "name": "Root Touch-Up", "price": 65 },
+      { "name": "All-Over Color", "price": 75 },
+      { "name": "Partial Weave (One Color)", "price": 75 }
+    ]
+  },
+  {
+    "title": "Hair Coloring",
+    "type": [
+      { "name": "Root Touch-Up", "price": 65 },
+      { "name": "All-Over Color", "price": 75 },
+      { "name": "Partial Weave (One Color)", "price": 75 }
+    ]
+  },
+  {
+    "title": "Hair Coloring",
+    "type": [
+      { "name": "Root Touch-Up", "price": 65 },
+      { "name": "All-Over Color", "price": 75 },
+      { "name": "Partial Weave (One Color)", "price": 75 }
+    ]
+  },
+  {
+    "title": "Hair Coloring",
+    "type": [
+      { "name": "Root Touch-Up", "price": 65 },
+      { "name": "All-Over Color", "price": 75 },
+      { "name": "Partial Weave (One Color)", "price": 75 }
+    ]
+  }
+]
