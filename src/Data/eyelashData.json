@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Tinting and perming",
+    "type": [
+      { "name": "Lash Life Perm", "price": "$80" },
+      { "name": "Lash or Brow Tinting", "price": "$30" },
+      { "name": "Lash and Brow Tinting", "price": "$50" },
+      { "name": "Basic Full Set Classic Lashes", "price": "$150" },
+      {
+        "name": "Dramatic Full Set Classic and Hybrid Lashes",
+        "price": "$200"
+      },
+      { "name": "Extremely Full Set Lashes", "price": "$275" },
+      { "name": "Full Refill Classic Lashes", "price": "$75" },
+      { "name": "Full Refill Dramatic Classic and Hybrid", "price": "$95" },
+      { "name": "Full Refill Extremely Lashes", "price": "$175" }
+    ]
+  },
+  {
+    "title": "Cosmetics",
+    "type": [
+      { "name": "Bridal Makeup", "price": "$65" },
+      { "name": "Make Up Application", "price": "$35" }
+    ]
+  }
+]

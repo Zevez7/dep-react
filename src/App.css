@@ -1,3 +1,5 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 .App {
   text-align: center;
 }
@@ -30,6 +32,19 @@
 
 .makeStyles-callButton-212:hover {
   background-color: green;
+}
+
+/* setting max height for img gallery carousel */
+.image-gallery-slide img {
+  height: 500px;
+}
+
+a.nodecor {
+  text-decoration: none;
+}
+
+a.nodecor.white {
+  color: white;
 }
 
 /* :root {

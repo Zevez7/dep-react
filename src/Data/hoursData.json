@@ -1,0 +1,31 @@
+[
+  {
+    "Day": "Monday",
+    "Time": "10am-7pm"
+  },
+  {
+    "Day": "Tuesday",
+    "Time": "10am-7pm"
+  },
+  {
+    "Day": "Wednesday",
+    "Time": "10am-7pm"
+  },
+  {
+    "Day": "Thursday",
+    "Time": "10am-7pm"
+  },
+  {
+    "Day": "Friday",
+    "Time": "10am-7pm"
+  },
+
+  {
+    "Day": "Saturday",
+    "Time": "10am-7pm"
+  },
+  {
+    "Day": "Sunday",
+    "Time": "Closed"
+  }
+]

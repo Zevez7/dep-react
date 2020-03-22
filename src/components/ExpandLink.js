@@ -4,9 +4,10 @@ import {
   ExpansionPanelSummary,
   ExpansionPanel,
   ExpansionPanelDetails,
-  Typography,
   List,
   ListItem,
+  Button,
+  Box,
   ListItemText
 } from "@material-ui/core";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
@@ -19,6 +20,9 @@ const useStyles = makeStyles(() => ({
   },
   list: {
     width: "100%"
+  },
+  button: {
+    marginLeft: 5
   }
 }));
 
@@ -32,14 +36,36 @@ const ExpandLink = () => {
       <ExpansionPanel
         expanded={expandHandel}
         onClick={() => setExpandHandel(!expandHandel)}
+        dense="true"
       >
         <ExpansionPanelSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon color="primary" />}
           aria-controls="panel1a-content"
           id="panel1a-header"
           className={classes.expansionColor}
         >
-          <Typography variant="h5">MENU</Typography>
+          <Box textAlign="left">
+            <Button
+              variant="outlined"
+              href="tel:1-503-644-2050"
+              color="primary"
+              size="small"
+              className={classes.button}
+            >
+              (503) 644-2050
+            </Button>
+
+            <Button
+              href="https://depbeautybar.setmore.com/bookappointment"
+              target="_blank"
+              variant="outlined"
+              color="secondary"
+              size="small"
+              className={classes.button}
+            >
+              BOOK ONLINE
+            </Button>
+          </Box>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <List
@@ -60,12 +86,17 @@ const ExpandLink = () => {
             </ScrollIntoView>
             <ScrollIntoView selector="#services">
               <ListItem button onClick={() => setExpandHandel(false)}>
-                <ListItemText primary="SERVICE" />
+                <ListItemText primary="SERVICES" />
               </ListItem>
             </ScrollIntoView>
             <ScrollIntoView selector="#contact">
               <ListItem button onClick={() => setExpandHandel(false)}>
                 <ListItemText primary="CONTACT" />
+              </ListItem>
+            </ScrollIntoView>
+            <ScrollIntoView selector="#booking">
+              <ListItem button onClick={() => setExpandHandel(false)}>
+                <ListItemText primary="BOOKING" />
               </ListItem>
             </ScrollIntoView>
           </List>

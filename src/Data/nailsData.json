@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Manicure & Pedicure",
+    "type": [
+      { "name": "Gel Manicure", "price": "$25" },
+      { "name": "Gel Pedicure", "price": "$40" },
+      { "name": "Manicure", "price": "$15" },
+      { "name": "Deluxe Manicure", "price": "$25" },
+      { "name": "Spa Pedicure", "price": "$25" },
+      { "name": "Spa Pedicure w/sea salt and paraffin Wax", "price": "$30" },
+      { "name": "Deluxe Spa Pedicure", "price": "$45" },
+      { "name": "Child Mani & Pedi", "price": "$25" }
+    ]
+  },
+  {
+    "title": "Acrylic Nails",
+    "type": [
+      { "name": "Gel Full Set", "price": "$45" },
+      { "name": "Gel Fill", "price": "$35" },
+      { "name": "Acrylic Full Set", "price": "$35" },
+      { "name": "Acrylic Fill", "price": "$20" },
+      { "name": "Solar Full Set", "price": "$30" },
+      { "name": "Solar Fill", "price": "$25" },
+      { "name": "Solar Pink & White Full Set", "price": "$45" },
+      { "name": "Solar Pink & White Fill", "price": "$35" },
+      { "name": "Dip Powder Full Set", "price": "$45" }
+    ]
+  },
+  {
+    "title": "Miscellaneous",
+    "type": [
+      { "name": "Paraffin Wax", "price": "$5" },
+      { "name": "Nail Art", "price": "$8" },
+      { "name": "3D Nail Art", "price": "$8" },
+      { "name": "French", "price": "$8" },
+      { "name": "Polish Change (Fingers)", "price": "$10" },
+      { "name": "Gel Polish (Extra)", "price": "$15" }
+    ]
+  }
+]

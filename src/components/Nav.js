@@ -30,15 +30,16 @@ const useStyles = makeStyles(theme => ({
     marginRight: "auto"
   },
   toolbar: { textAlign: "center", paddingLeft: 0, paddingRight: 0 },
-  fab: { backgroundColor: "#CE2EA2" },
+  fab: { backgroundColor: "#CE2EA2", zIndex: 4000 },
   logo: {
     textAlign: "center",
-    height: 70,
+    height: 50,
     cursor: "pointer"
   },
   expand: {
     width: "100%"
-  }
+  },
+  
 }));
 
 function ScrollTop(props) {

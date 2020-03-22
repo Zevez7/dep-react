@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Face",
+    "type": [
+      { "name": "Eyebrow", "price": "$15" },
+      { "name": "Lip", "price": "$10" },
+      { "name": "Chin", "price": "$10" },
+      { "name": "Cheeks", "price": "$15" },
+      { "name": "Face", "price": "$35" },
+      { "name": "Neck", "price": "$20 +" },
+      { "name": "Threading", "price": "Quote" }
+    ]
+  },
+  {
+    "title": "Upper Body",
+    "type": [
+      { "name": "Chest", "price": "$45 +" },
+      { "name": "Shoulder", "price": "$25 +" },
+      { "name": "Full Arm", "price": "$55" },
+      { "name": "Half Arm", "price": "$35" },
+      { "name": "Underarm", "price": "$25" }
+    ]
+  },
+  {
+    "title": "Lower Body ",
+    "type": [
+      { "name": "Full Legs", "price": "$65" },
+      { "name": "Half Legs", "price": "$45" },
+      { "name": "Stomach", "price": "$35 +" },
+      { "name": "Back", "price": "$45 +" },
+      { "name": "Bikini", "price": "$40" },
+      { "name": "Brazilian", "price": "$65" }
+    ]
+  }
+]

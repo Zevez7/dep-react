@@ -9,11 +9,10 @@ import Gallery from "./components/Gallery";
 import About from "./components/About";
 import { Box } from "@material-ui/core";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
+import Footer from "./components/Footer";
+import Booking from "./components/Booking";
 
 const useStyles = makeStyles(() => ({
-  app: {
-    marginTop: "0.4rem"
-  },
   space: {
     height: "2rem"
   },
@@ -24,8 +23,11 @@ const useStyles = makeStyles(() => ({
   },
   offsetSm: {
     position: "relative",
-    top: -130,
+    top: -120,
     height: 1
+  },
+  hiddenBox: {
+    height: "2.5rem"
   }
 }));
 
@@ -45,9 +47,13 @@ function App() {
 
   return (
     <>
+      <Box
+        component="span"
+        className={classes.hiddenBox}
+        display={{ xs: "block", sm: "block", md: "none" }}
+      ></Box>
       <div id="hero" />
       <Nav />
-      <div className={classes.app} />
       <Hero />
       <div className={classes.space} />
       <Box id="about" className={screenSizeOffsSet()} />
@@ -61,7 +67,11 @@ function App() {
       <div className={classes.space} />
       <Box id="contact" className={screenSizeOffsSet()} />
       <Contact />
-    </>
+      <div className={classes.space} />
+      <Box id="booking" className={screenSizeOffsSet()} />
+      <Booking />
+      <Footer />
+    </> //
   );
 }
 

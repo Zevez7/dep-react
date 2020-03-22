@@ -2,78 +2,53 @@
   {
     "title": "Hair Cuts",
     "type": [
-      { "name": "Women's", "price": 35 },
-      { "name": "Men's", "price": 25 },
-      { "name": "Children's", "price": 20 }
+      { "name": "Women's", "price": "$35 +" },
+      { "name": "Men's", "price": "$25 +" },
+      { "name": "Children's", "price": "$20 +" }
     ]
   },
   {
-    "title": "Hair Coloring",
+    "title": "Hair Texture",
     "type": [
-      { "name": "Root Touch-Up", "price": 65 },
-      { "name": "All-Over Color", "price": 75 },
-      { "name": "Partial Weave (One Color)", "price": 75 },
-      { "name": "Full Weave(One Color)", "price": 95 },
-      { "name": "Roots & Partial Weave", "price": 120 },
-      { "name": "Roots & Full Weave", "price": 125 },
-      { "name": "Each Additional Color", "price": 10 }
+      { "name": "Permanent Waves", "price": "$65 +" },
+      { "name": "Spiral Perm", "price": "$95 +" }
     ]
   },
   {
     "title": "Hair Extensions",
     "type": [
-      { "name": "Consultation", "price": "Free" },
-      { "name": "Hair Extensions", "price": "75/hr" },
-      { "name": "Single Hair Extension", "price": "$15/strand" },
-      { "name": "Partial Weave (One Color)", "price": 75 }
+      { "name": "Free Consultation ", "price": "" },
+      { "name": "Hair Extensions", "price": "$75 /hr" },
+      { "name": "Single Hair Extension", "price": "$15 +/strand" }
     ]
   },
   {
     "title": "Hair Coloring",
     "type": [
-      { "name": "Root Touch-Up", "price": 65 },
-      { "name": "All-Over Color", "price": 75 },
-      { "name": "Partial Weave (One Color)", "price": 75 }
+      { "name": "Root Touch-Up", "price": "$65 +" },
+      { "name": "All-Over Color", "price": "$75 +" },
+      { "name": "Partial Weave (One Color)", "price": "$75 +" },
+      { "name": "Full Weave (One Color)", "price": "$95 +" },
+      { "name": "Roots & Partial Weave", "price": "$120 +" },
+      { "name": "Roots & Full Weave", "price": "$125 +" },
+      { "name": "Each Additional Color", "price": "$10" }
     ]
   },
   {
-    "title": "Hair Coloring",
+    "title": "Hair Styling",
     "type": [
-      { "name": "Root Touch-Up", "price": 65 },
-      { "name": "All-Over Color", "price": 75 },
-      { "name": "Partial Weave (One Color)", "price": 75 }
+      { "name": "Shampoo & Style", "price": "$25 +" },
+      { "name": "Up Do", "price": "$45 +" },
+      { "name": "Wedding Up Do", "price": "$65 +" },
+      { "name": "Straightening", "price": "$25 +" },
+      { "name": "Deep Conditioning", "price": "$35 +" }
     ]
   },
   {
-    "title": "Hair Coloring",
+    "title": "Hair Straightening",
     "type": [
-      { "name": "Root Touch-Up", "price": 65 },
-      { "name": "All-Over Color", "price": 75 },
-      { "name": "Partial Weave (One Color)", "price": 75 }
-    ]
-  },
-  {
-    "title": "Hair Coloring",
-    "type": [
-      { "name": "Root Touch-Up", "price": 65 },
-      { "name": "All-Over Color", "price": 75 },
-      { "name": "Partial Weave (One Color)", "price": 75 }
-    ]
-  },
-  {
-    "title": "Hair Coloring",
-    "type": [
-      { "name": "Root Touch-Up", "price": 65 },
-      { "name": "All-Over Color", "price": 75 },
-      { "name": "Partial Weave (One Color)", "price": 75 }
-    ]
-  },
-  {
-    "title": "Hair Coloring",
-    "type": [
-      { "name": "Root Touch-Up", "price": 65 },
-      { "name": "All-Over Color", "price": 75 },
-      { "name": "Partial Weave (One Color)", "price": 75 }
+      { "name": "Japanese Straightening", "price": "$250 +" },
+      { "name": "Keratin Blowout Treatment", "price": "$200 +" }
     ]
   }
 ]

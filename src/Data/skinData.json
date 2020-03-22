@@ -1,0 +1,14 @@
+[
+  {
+    "title": "",
+    "type": [
+      { "name": "European Facial", "price": "$65" },
+      { "name": "Deep Hydrating Facial", "price": "$85" },
+      { "name": "Micro Dermabrasion", "price": "$95" },
+      { "name": "Acne Treatment Facial", "price": "$75" },
+      { "name": "Chemical Peel Treatment", "price": "$120" },
+      { "name": "Deep Cleaning Facial", "price": "$75" },
+      { "name": "Skin Tag Removal", "price": "Quote" }
+    ]
+  }
+]

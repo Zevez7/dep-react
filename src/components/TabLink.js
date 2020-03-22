@@ -10,20 +10,21 @@ const useStyles = makeStyles(() => ({
     fontWeight: "bold",
     fontSize: "1rem",
     marginTop: 10,
-    padding: 10
+    minWidth: 120
   }
 }));
 
 export default function TabLink() {
   const classes = useStyles();
   const theme = useTheme();
-  const md_up = useMediaQuery(theme.breakpoints.only("sm"));
+  const md_down = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
     <>
       <Tabs
-        centered={md_up}
+        centered={md_down}
         value={1}
+        variant="fullWidth"
         TabIndicatorProps={{
           style: {
             height: 0
@@ -43,6 +44,9 @@ export default function TabLink() {
         </ScrollIntoView>
         <ScrollIntoView selector="#contact">
           <Tab label="CONTACT" className={classes.tab} />
+        </ScrollIntoView>
+        <ScrollIntoView selector="#booking">
+          <Tab label="BOOKING" className={classes.tab} />
         </ScrollIntoView>
       </Tabs>
     </>
